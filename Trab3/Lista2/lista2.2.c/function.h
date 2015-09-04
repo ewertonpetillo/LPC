@@ -1,6 +1,7 @@
-#ifdef FUNCAO_H
-#define FUNCAO_H
 
-int media(int,int,int,char)
 
-#endif
+
+float media(float,float,float,char);
+
+
+

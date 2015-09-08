@@ -20,3 +20,7 @@ int sum(int, int, int);
 char positive_negative(char);
 float somaImposto(float, float);
 float valorPagamento(float, int);
+int qnt_digitos(int);
+int inverter(int);
+
+    

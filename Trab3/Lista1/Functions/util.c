@@ -48,3 +48,20 @@ float valorPagamento(float value, int dia)
     }
 }
 
+int qnt_digitos(int x)
+{
+    int cont;
+    while(x > 0)
+    {
+        x = x/10 ;
+        cont++ ;
+    }
+    return cont;
+}
+
+int inverter(int x)
+{
+    int inv;
+    inv = (x%10);
+    return inv;
+}
